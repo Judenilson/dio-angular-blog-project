@@ -1,9 +1,9 @@
-.container__menu-title{
+.container__menu-title {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.container__menu-title > h1{
+.container__menu-title > h1 {
   font-size: 4rem;
   font-weight: 600;
 }

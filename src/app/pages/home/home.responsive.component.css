@@ -1,0 +1,10 @@
+@media screen and (max-width: 526px) {
+  .container {
+    padding: 0 10px 100px 10px;
+  }
+  .articles__others {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

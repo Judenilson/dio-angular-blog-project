@@ -31,17 +31,17 @@
   font-size: 0.8rem;
 }
 
-.container__menu > a:hover{
+.container__menu > a:hover {
   text-decoration: underline;
 }
 
-a{
+a {
   text-decoration: none;
   color: #131313;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   text-underline-offset: 8px;
-  color: #E73974;
+  color: #e73974;
 }

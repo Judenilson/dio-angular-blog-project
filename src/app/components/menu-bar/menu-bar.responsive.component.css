@@ -1,0 +1,12 @@
+@media screen and (max-width: 492px) {
+  .container__menu > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__menu > ul > li {
+    list-style: none;
+    padding-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
