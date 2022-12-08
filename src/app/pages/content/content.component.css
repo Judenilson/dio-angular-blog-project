@@ -19,6 +19,7 @@
 
 .content__description > p{
   text-indent: 50px;
+  text-align: justify;
 }
 
 .conteiner__content > button {
