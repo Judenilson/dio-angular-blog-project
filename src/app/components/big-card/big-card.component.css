@@ -1,12 +1,10 @@
 .container__big-card {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
 }
 .big-card__date {
   flex-direction: column;
   padding: 0 0 0 1.8rem;
-  /* border: 2px solid blue; */
 }
 .big-card__time > p {
   color: #aaa;
@@ -30,7 +28,6 @@
 }
 
 .big-card__photo > img {
-  /* background-image: url("../../../assets/imagens/a123456.jpg"); */
   border-radius: 6px;
   height: 225px;
   width: 372px;
