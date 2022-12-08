@@ -1,27 +1,20 @@
 <div class="container__small-card">
   <div class="small-card__photo">
-    <img
-      src="../../../assets/imagens/a122.jpg"
-      alt=""
-      height="120px"
-      width="198px"
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" height="120px" width="198px" srcset="" />
   </div>
   <div class="small-card__date">
     <div class="small-card__time">
-      <p>Dezembro 7, 2022</p>
+      <p>{{ cardTime }}</p>
     </div>
     <div class="small-card__title">
       <h1>
-        <a href="#"> O metaverso é o futuro? </a>
+        <a href="#"> {{ cardTitle }} </a>
       </h1>
     </div>
     <div class="small-card__description">
       <p>
         <a href="#">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates amet
-        illum nihil fuga...
+          {{ cardDescription }}
         </a>
       </p>
     </div>

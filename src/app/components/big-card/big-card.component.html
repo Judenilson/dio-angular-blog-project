@@ -1,27 +1,19 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="../../../assets/imagens/a123456.jpg"
-      alt=""
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" srcset="" />
   </div>
   <div class="big-card__date">
     <div class="big-card__time">
-      <p>Dezembro 7, 2022</p>
+      <p>{{ cardTime }}</p>
     </div>
     <div class="big-card__title">
       <h1>
-        <a href="#"> Linha 4080 difícil vender! </a>
+        <a href="#">{{ cardTitle }}</a>
       </h1>
     </div>
     <div class="big-card__description">
       <p>
-        <a href="#">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates amet
-        illum nihil fuga at ut ad nulla aspernatur. Atque placeat doloribus
-        distinctio dicta ipsa debitis...
-        </a>
+        <a href="#">{{ cardDescription }} </a>
       </p>
     </div>
   </div>
